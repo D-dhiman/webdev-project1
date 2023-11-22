@@ -1,0 +1,233 @@
+
+nav{
+    position:fixed;
+    top:0;
+    width:100%;
+    border-bottom-style:solid;
+}
+ul.nav{
+    list-style-type:none; /* removes bullets */
+    margin:0%;  
+    padding:0%; /* margin and padding remove the dfault browser space.*/
+    background-color:white;
+    opacity:85%;
+    overflow: hidden;
+}
+ul.nav li{  /*moves the list elements to one side*/
+    float:left;
+}
+ul.nav li a{   /* how the link will look normally*/
+    display:block;
+    background-color:white;
+    color:black;
+    padding:20px 45px 20px 45px;
+    text-align: center;
+    text-decoration: none;
+    font-size:30px;
+    border-left-style:solid;
+    border-right-style:solid;
+    border-width:2px;
+}
+ul.nav li a:hover{
+    background-color:rgb(243, 255, 77);
+    color:rgb(255, 81, 0) ;
+}
+ul.nav li a:active{
+    background-color:rgb(243, 255, 77);
+    color:rgb(255, 81, 0) ;
+}
+#aboutus{
+    display: flex;
+    gap:20px; /* gives a gap between the flex elements*/
+    padding-top:40px;
+}
+img#aboutus{
+    padding:0 0 0 0;
+    height: 100%;
+    width: 100%;
+}
+#ap{
+    font-size:29px;
+    color:rgb(63, 9, 9);
+    overflow:auto;
+    font-family:monospace;
+    text-align: center;
+    display: block;
+    padding:20px 40px 40px 30px;
+}
+
+#locate{
+    display:flex;
+    gap:20px;
+    padding-left:30px;
+}
+.imga{
+    padding-top:25px;
+}
+
+#why{
+    font-size:100px;
+    display:block;
+    padding-left:30px;
+    padding-top: 30px;
+    margin-left:10px;
+    font-stretch:extra-expanded;
+    font-family:Courier;
+    border-left-style:solid;
+}
+#lp{
+    font-size:24px;
+    color:rgb(78, 70, 1);
+    overflow:auto;
+    font-family:monospace;
+    display: block;
+    padding:40px 40px 0px 40px ;
+}
+.lh{
+    font-size:45px;
+    font-family:Courier;
+    font-weight: bold;
+    text-decoration: underline;
+    color:black;
+    text-align: center;
+}
+.local{
+    font-size:29px;
+    color:rgb(19, 9, 63);
+    overflow:auto;
+    font-family:monospace;
+    text-align: center;
+    display: block;
+    padding:20px 40px 40px 30px;
+}
+.local ul{
+    margin:0%;
+    padding:0%;
+    list-style-type: none;
+}
+#local{
+    display:flex;
+    gap:40px;
+    justify-content: center;
+}
+.national{
+    font-size:29px;
+    color:rgb(19, 9, 63);
+    overflow:auto;
+    font-family:monospace;
+    text-align: center;
+    display: block;
+    padding:20px 40px 40px 30px;
+}
+.national ul{
+    margin:0%;
+    padding:0%;
+    list-style-type: none;
+}
+#national{
+    display:flex;
+    gap:40px;
+    justify-content: center;
+}
+#th{
+    font-size:35px;
+    font-stretch:extra-expanded;
+    font-family:Courier;
+    display:block;
+    padding-bottom: 0%;
+}
+#tp{
+    font-size:22px;
+    color:rgb(19, 9, 63);
+    overflow:auto;
+    font-family:monospace;
+    display: block;
+    padding-top: 0%;
+}
+#trainers{
+    gap:0px;
+}
+footer{
+    font-family:monospace;
+    font-size: 15px;
+}
+.crew{
+    font-size:36px;
+    display:block;
+    padding-top: 10px;
+    padding-bottom:10px;
+    margin-left:10px;
+    font-stretch:extra-expanded;
+    font-family:Courier;
+    border-bottom-style:solid;
+    border-top-style:solid;
+}
+#cname{
+    display:flex;
+    gap:170px;
+    justify-content: center;
+    padding-right:40px;
+}
+#cimg{
+    display:flex;
+    gap:50px;
+    justify-content: center;
+}
+.cimg{
+    border-style:solid;
+    border-width:2px;
+    padding-bottom:0px;
+}
+#cdis{
+    display:flex;
+    gap:325px;
+    justify-content: center;
+}
+.cdis p{
+    font-style:italic;
+    display:block;
+    overflow:scroll;
+    width:500px;
+    height:200px;
+    padding:0%;
+    margin:0%;
+}
+#contact{
+    text-align: left;
+    font-size: 15px;
+
+}
+#contact a{
+    color:rgb(32, 32, 63);
+    text-decoration:none;
+}
+#contact a:visited{
+    color:rgb(32, 32, 63);
+}
+#contact a:hover{
+    color:rgb(32, 32, 63);
+}
+
+#copy a{   /* how the link will look normally*/
+    display:block;
+    background-color:rgb(243, 255, 77);
+    color:rgb(255, 81, 0);
+    padding:20px 45px 20px 45px;
+    text-align:center;
+    text-decoration: none;
+    font-size:30px;
+    font-family: monospace;
+}
+#copy a:visited{
+    background-color:rgb(243, 255, 77);
+    color:rgb(255, 81, 0) ;
+}
+footer{
+    background-color:rgb(255, 243, 130);
+}
+#registration{
+    text-align:center;
+    font-family: monospace;
+    font-size:30px;
+    border-style: solid;
+}
